@@ -1,0 +1,31 @@
+<template lang="clsx">
+	<div :class="container">
+		<h1 :class="heading red"
+			@class="{ h1: isLarge, blue: isBlue }"
+			on:click="toggle()">Hello</h1>
+	</div>
+</template>
+
+<script>
+	import { clsxHelper } from 'svelte-preprocess-clsx';
+	import styles from './app.scss';
+
+	export default {
+		data() {
+			return {
+				styles,
+				isLarge: false,
+				isBlue: false
+			}
+		},
+		methods: {
+			toggle() {
+				const { isLarge, isBlue } = this.get();
+				this.set({ isLarge: !isLarge, isBlue: !isBlue });
+			}
+		},
+		helpers: {
+			clsxHelper
+		}
+	}
+</script>
