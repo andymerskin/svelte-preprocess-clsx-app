@@ -2,6 +2,7 @@
 Playground for [svelte-preprocess-clsx](https://github.com/docmars/svelte-preprocess-clsx)
 
 ```bash
+npm install
 npm run dev
 ```
 
