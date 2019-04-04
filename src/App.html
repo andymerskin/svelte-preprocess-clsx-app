@@ -1,7 +1,7 @@
 <template lang="clsx">
 	<div :class="container">
-		<h1 :class="heading red"
-			@class="{ h1: isLarge, blue: isBlue }"
+		<h1 @class="['heading', { h1: isLarge, blue: isBlue }]"
+			:class="red"
 			on:click="toggle()">Hello</h1>
 	</div>
 </template>
