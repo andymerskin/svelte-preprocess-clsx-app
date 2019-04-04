@@ -2,7 +2,7 @@
 Playground for [svelte-preprocess-clsx](https://github.com/docmars/svelte-preprocess-clsx)
 
 ## Instructions
-1. Clone `svelte-preprocess-clsx` next to this project
+1. Clone `svelte-preprocess-clsx` (**develop** branch) next to this project
 2. In that folder, run `npm link`
 3. Run these commands below:
 
