@@ -13,7 +13,7 @@
     "svelte": "^2.0.0",
     "svelte-loader": "2.11.0",
     "svelte-preprocess": "^2.5.1",
-    "svelte-preprocess-clsx": "git+https://git@github.com/docmars/svelte-preprocess-clsx.git",
+    "svelte-preprocess-clsx": "git+https://git@github.com/docmars/svelte-preprocess-clsx.git#v1.0.0-alpha.2",
     "webpack": "^4.8.3",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.9"
